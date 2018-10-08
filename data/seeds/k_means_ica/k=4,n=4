@@ -1,0 +1,72 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 4 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     seeds_seeds-weka.filters.unsupervised.attribute.Remove-R8_ICA-weka.filters.unsupervised.attribute.IndependentComponents-W-A4-N500-T1.0E-4-weka.filters.unsupervised.attribute.Remove-R1-7
+Instances:    210
+Attributes:   5
+              Source_0
+              Source_1
+              Source_2
+              Source_3
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 15
+Within cluster sum of squared errors: 15.053995520165966
+
+Initial starting points (random):
+
+Cluster 0: 0.115846,0.010283,0.045321,0.068903
+Cluster 1: -0.038461,-0.11335,0.058858,0.017209
+Cluster 2: 0.109339,-0.112449,-0.077186,-0.008078
+Cluster 3: 0.019732,0.015953,0.06026,0.148435
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1          2          3
+               (210.0)     (52.0)     (60.0)     (26.0)     (72.0)
+==================================================================
+Source_0            -0     0.0742    -0.0304     0.0626    -0.0509
+Source_1            -0     0.0506      -0.06     -0.094     0.0474
+Source_2             0    -0.0121     0.0223    -0.0196    -0.0027
+Source_3             0     0.0245    -0.0214    -0.0059     0.0023
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       52 ( 25%)
+1       60 ( 29%)
+2       26 ( 12%)
+3       72 ( 34%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  2  3  <-- assigned to cluster
+ 18 11  0 41 | Kama
+ 34  1  4 31 | Rosa
+  0 48 22  0 | Canadian
+
+Cluster 0 <-- Rosa
+Cluster 1 <-- Canadian
+Cluster 2 <-- No class
+Cluster 3 <-- Kama
+
+Incorrectly clustered instances :	87.0	 41.4286 %
+

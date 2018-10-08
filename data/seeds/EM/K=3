@@ -1,0 +1,89 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 100 -N 3 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 100
+Relation:     seeds
+Instances:    210
+Attributes:   8
+              Area
+              Perimeter
+              Compactness
+              Length
+              Width
+              Asymmetry Coefficient
+              Length of Kernel Groove
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 3
+Number of iterations performed: 10
+
+
+                          Cluster
+Attribute                       0       1       2
+                            (0.3)   (0.3)   (0.4)
+==================================================
+Area
+  mean                     18.6746 14.8715 11.9828
+  std. dev.                 1.1231  0.8345  0.7431
+
+Perimeter
+  mean                      16.278 14.5581 13.2819
+  std. dev.                 0.4841  0.4132  0.3485
+
+Compactness
+  mean                      0.8849  0.8813  0.8528
+  std. dev.                 0.0148  0.0154  0.0222
+
+Length
+  mean                      6.2047  5.5926  5.2274
+  std. dev.                 0.2183  0.1821  0.1422
+
+Width
+  mean                      3.7171  3.3103  2.8781
+  std. dev.                 0.1532  0.1302  0.1497
+
+Asymmetry Coefficient
+  mean                      3.5773  2.8942  4.4067
+  std. dev.                 1.2237  1.2509  1.5252
+
+Length of Kernel Groove
+  mean                      6.0625  5.2194  5.0653
+  std. dev.                 0.2209  0.2886   0.199
+
+
+
+Time taken to build model (full training data) : 0.01 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       62 ( 30%)
+1       64 ( 30%)
+2       84 ( 40%)
+
+
+Log likelihood: -1.05943
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  2  <-- assigned to cluster
+  2 54 14 | Kama
+ 60 10  0 | Rosa
+  0  0 70 | Canadian
+
+Cluster 0 <-- Rosa
+Cluster 1 <-- Kama
+Cluster 2 <-- Canadian
+
+Incorrectly clustered instances :	26.0	 12.381  %
+

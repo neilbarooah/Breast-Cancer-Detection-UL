@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 3 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     seeds-weka.filters.supervised.attribute.NominalToBinary-weka.filters.unsupervised.attribute.RandomProjection-N4-R42-DSparse1
+Instances:    210
+Attributes:   5
+              K1
+              K2
+              K3
+              K4
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 10
+Within cluster sum of squared errors: 7.666814007565787
+
+Initial starting points (random):
+
+Cluster 0: 12.026668,10.179263,33.769102,-32.198825
+Cluster 1: 10.193119,8.738196,20.384506,-18.931315
+Cluster 2: 11.089109,9.422356,24.562732,-23.070917
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1          2
+               (210.0)     (62.0)     (87.0)     (61.0)
+=======================================================
+K1             11.2575     12.283    10.5335    11.2479
+K2              9.3671    10.5137     8.7605     9.0667
+K3             27.2253     33.877    22.3513    27.4159
+K4            -25.7167   -32.3449   -20.8708    -25.891
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       62 ( 30%)
+1       87 ( 41%)
+2       61 ( 29%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  2  <-- assigned to cluster
+  1 18 51 | Kama
+ 61  0  9 | Rosa
+  0 69  1 | Canadian
+
+Cluster 0 <-- Rosa
+Cluster 1 <-- Canadian
+Cluster 2 <-- Kama
+
+Incorrectly clustered instances :	29.0	 13.8095 %
+

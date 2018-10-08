@@ -1,0 +1,270 @@
+ANN with Breast Cancer Dataset (No Dimensionality Reduction)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16]
+Training Accuracy: 0.9250585480093677
+Cross Validation Accuracy: 0.5784832917831332
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.653594
+
+
+ANN with Breast Cancer Dataset - RP (1 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16]
+Training Accuracy: 0.6627634660421545
+Cross Validation Accuracy: 0.309274508322631
+Testing Accuracy: 0.6126760563380281
+Total Time Taken: 0:00:01.848899
+
+
+ANN with Breast Cancer Dataset - RP (2 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9133489461358314
+Cross Validation Accuracy: 0.5527221676613533
+Testing Accuracy: 0.8732394366197183
+Total Time Taken: 0:00:02.715033
+
+
+ANN with Breast Cancer Dataset - RP (3 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9250585480093677
+Cross Validation Accuracy: 0.9065850771826446
+Testing Accuracy: 0.9295774647887324
+Total Time Taken: 0:00:02.678251
+
+
+ANN with Breast Cancer Dataset - RP (4 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9156908665105387
+Cross Validation Accuracy: 0.883241419254111
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.420705
+
+
+ANN with Breast Cancer Dataset - RP (5 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9297423887587822
+Cross Validation Accuracy: 0.8995202840522778
+Testing Accuracy: 0.9154929577464789
+Total Time Taken: 0:00:02.655020
+
+
+ANN with Breast Cancer Dataset - RP (6 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9110070257611241
+Cross Validation Accuracy: 0.3629875853038201
+Testing Accuracy: 0.8802816901408451
+Total Time Taken: 0:00:03.064657
+
+
+ANN with Breast Cancer Dataset - RP (7 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.892271662763466
+Cross Validation Accuracy: 0.6416962554455944
+Testing Accuracy: 0.8943661971830986
+Total Time Taken: 0:00:02.978178
+
+
+ANN with Breast Cancer Dataset - RP (8 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.927400468384075
+Cross Validation Accuracy: 0.9040492558736875
+Testing Accuracy: 0.9295774647887324
+Total Time Taken: 0:00:02.385183
+
+
+ANN with Breast Cancer Dataset - RP (9 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9180327868852459
+Cross Validation Accuracy: 0.9182946790561809
+Testing Accuracy: 0.8943661971830986
+Total Time Taken: 0:00:02.946479
+
+
+ANN with Breast Cancer Dataset - RP (10 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16]
+Training Accuracy: 0.9180327868852459
+Cross Validation Accuracy: 0.9088501926418374
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.357707
+
+
+ANN with Breast Cancer Dataset - RP (11 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9203747072599532
+Cross Validation Accuracy: 0.8316020749918159
+Testing Accuracy: 0.9084507042253521
+Total Time Taken: 0:00:02.513180
+
+
+ANN with Breast Cancer Dataset - RP (12 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9180327868852459
+Cross Validation Accuracy: 0.8690740600841076
+Testing Accuracy: 0.9436619718309859
+Total Time Taken: 0:00:02.710665
+
+
+ANN with Breast Cancer Dataset - RP (13 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9110070257611241
+Cross Validation Accuracy: 0.8230993931152577
+Testing Accuracy: 0.9014084507042254
+Total Time Taken: 0:00:02.481725
+
+
+ANN with Breast Cancer Dataset - RP (14 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16]
+Training Accuracy: 0.9227166276346604
+Cross Validation Accuracy: 0.9135730653974969
+Testing Accuracy: 0.9295774647887324
+Total Time Taken: 0:00:02.593170
+
+
+ANN with Breast Cancer Dataset - RP (15 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9320843091334895
+Cross Validation Accuracy: 0.9253216992772784
+Testing Accuracy: 0.9154929577464789
+Total Time Taken: 0:00:02.878769
+
+
+ANN with Breast Cancer Dataset - RP (16 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9250585480093677
+Cross Validation Accuracy: 0.9323096874921306
+Testing Accuracy: 0.9154929577464789
+Total Time Taken: 0:00:02.537676
+
+
+ANN with Breast Cancer Dataset - RP (17 random projections)
+
+Optimal Hidden Layers: [16, 16]
+Training Accuracy: 0.9086651053864169
+Cross Validation Accuracy: 0.7213278436705196
+Testing Accuracy: 0.9295774647887324
+Total Time Taken: 0:00:02.020783
+
+
+ANN with Breast Cancer Dataset - RP (18 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9203747072599532
+Cross Validation Accuracy: 0.913536551585203
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.640879
+
+
+ANN with Breast Cancer Dataset - RP (19 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9297423887587822
+Cross Validation Accuracy: 0.7567286142378686
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.556495
+
+
+ANN with Breast Cancer Dataset - RP (20 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16]
+Training Accuracy: 0.9250585480093677
+Cross Validation Accuracy: 0.8947986703935937
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.229973
+
+
+ANN with Breast Cancer Dataset - RP (21 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9297423887587822
+Cross Validation Accuracy: 0.9229420059933017
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.815930
+
+
+ANN with Breast Cancer Dataset - RP (22 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9250585480093677
+Cross Validation Accuracy: 0.7585266047190954
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.455643
+
+
+ANN with Breast Cancer Dataset - RP (23 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9227166276346604
+Cross Validation Accuracy: 0.6012590969756489
+Testing Accuracy: 0.9436619718309859
+Total Time Taken: 0:00:02.374310
+
+
+ANN with Breast Cancer Dataset - RP (24 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9156908665105387
+Cross Validation Accuracy: 0.9276636196519856
+Testing Accuracy: 0.9295774647887324
+Total Time Taken: 0:00:02.819698
+
+
+ANN with Breast Cancer Dataset - RP (25 random projections)
+
+Optimal Hidden Layers: [16, 16]
+Training Accuracy: 0.9156908665105387
+Cross Validation Accuracy: 0.3629875853038201
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.168282
+
+
+ANN with Breast Cancer Dataset - RP (26 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16]
+Training Accuracy: 0.9344262295081968
+Cross Validation Accuracy: 0.9276258467427161
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.265907
+
+
+ANN with Breast Cancer Dataset - RP (27 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9086651053864169
+Cross Validation Accuracy: 0.8971002996650802
+Testing Accuracy: 0.9084507042253521
+Total Time Taken: 0:00:02.951227
+
+
+ANN with Breast Cancer Dataset - RP (28 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16]
+Training Accuracy: 0.9250585480093677
+Cross Validation Accuracy: 0.920637858527864
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.266143
+
+
+ANN with Breast Cancer Dataset - RP (29 random projections)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16]
+Training Accuracy: 0.9250585480093677
+Cross Validation Accuracy: 0.5010538641686183
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.296834
+
+

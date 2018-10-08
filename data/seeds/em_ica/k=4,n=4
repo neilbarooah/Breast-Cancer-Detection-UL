@@ -1,0 +1,76 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 100 -N 4 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 100
+Relation:     seeds_seeds-weka.filters.unsupervised.attribute.Remove-R8_ICA-weka.filters.unsupervised.attribute.IndependentComponents-W-A4-N500-T1.0E-4-weka.filters.unsupervised.attribute.Remove-R1-7
+Instances:    210
+Attributes:   5
+              Source_0
+              Source_1
+              Source_2
+              Source_3
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 4
+Number of iterations performed: 42
+
+
+            Cluster
+Attribute         0       1       2       3
+             (0.26)  (0.22)  (0.24)  (0.28)
+============================================
+Source_0
+  mean       -0.0534  0.0768  0.0079 -0.0181
+  std. dev.   0.0573  0.0472  0.0638   0.033
+
+Source_1
+  mean        0.0273  0.0474 -0.0904  0.0168
+  std. dev.   0.0458  0.0416  0.0238   0.058
+
+Source_2
+  mean        -0.021 -0.0193  0.0046  0.0305
+  std. dev.   0.0815  0.0762  0.0536  0.0472
+
+Source_3
+  mean        0.0377  0.0222  0.0039 -0.0555
+  std. dev.   0.0794  0.0552   0.048  0.0455
+
+
+
+Time taken to build model (full training data) : 0.03 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       44 ( 21%)
+1       49 ( 23%)
+2       55 ( 26%)
+3       62 ( 30%)
+
+
+Log likelihood: 5.25956
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  2  3  <-- assigned to cluster
+ 12 17  0 41 | Kama
+ 31 32  2  5 | Rosa
+  1  0 53 16 | Canadian
+
+Cluster 0 <-- No class
+Cluster 1 <-- Rosa
+Cluster 2 <-- Canadian
+Cluster 3 <-- Kama
+
+Incorrectly clustered instances :	84.0	 40      %
+

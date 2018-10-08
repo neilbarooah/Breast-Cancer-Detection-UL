@@ -1,0 +1,71 @@
+ANN with Breast Cancer Dataset (No Dimensionality Reduction)
+
+Optimal Hidden Layers: [16, 16, 16]
+Training Accuracy: 0.927400468384075
+Cross Validation Accuracy: 0.7939689254866409
+Testing Accuracy: 0.9084507042253521
+Total Time Taken: 0:00:02.534558
+
+
+ANN with Breast Cancer Dataset - PCA (1 principal components)
+
+Optimal Hidden Layers: [16]
+Training Accuracy: 0.8899297423887588
+Cross Validation Accuracy: 0.9018987182392788
+Testing Accuracy: 0.9295774647887324
+Total Time Taken: 0:00:01.742304
+
+
+ANN with Breast Cancer Dataset - PCA (2 principal components)
+
+Optimal Hidden Layers: [16]
+Training Accuracy: 0.9320843091334895
+Cross Validation Accuracy: 0.9323474604014
+Testing Accuracy: 0.9366197183098591
+Total Time Taken: 0:00:02.019120
+
+
+ANN with Breast Cancer Dataset - PCA (3 principal components)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9391100702576113
+Cross Validation Accuracy: 0.9182178741406665
+Testing Accuracy: 0.9507042253521126
+Total Time Taken: 0:00:02.437268
+
+
+ANN with Breast Cancer Dataset - PCA (4 principal components)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16]
+Training Accuracy: 0.9648711943793911
+Cross Validation Accuracy: 0.9415640502631512
+Testing Accuracy: 0.9225352112676056
+Total Time Taken: 0:00:02.991012
+
+
+ANN with Breast Cancer Dataset - PCA (5 principal components)
+
+Optimal Hidden Layers: [16, 16, 16]
+Training Accuracy: 0.9625292740046838
+Cross Validation Accuracy: 0.9416395960816902
+Testing Accuracy: 0.9436619718309859
+Total Time Taken: 0:00:02.870879
+
+
+ANN with Breast Cancer Dataset - PCA (6 principal components)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9648711943793911
+Cross Validation Accuracy: 0.9346893807761073
+Testing Accuracy: 0.8943661971830986
+Total Time Taken: 0:00:02.946416
+
+
+ANN with Breast Cancer Dataset - PCA (7 principal components)
+
+Optimal Hidden Layers: [16, 16, 16, 16, 16, 16]
+Training Accuracy: 0.9742388758782201
+Cross Validation Accuracy: 0.9439047115408828
+Testing Accuracy: 0.8943661971830986
+Total Time Taken: 0:00:03.069153
+

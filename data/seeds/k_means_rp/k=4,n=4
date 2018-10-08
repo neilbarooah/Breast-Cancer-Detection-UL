@@ -1,0 +1,72 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 4 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     seeds-weka.filters.supervised.attribute.NominalToBinary-weka.filters.unsupervised.attribute.RandomProjection-N4-R42-DSparse1
+Instances:    210
+Attributes:   5
+              K1
+              K2
+              K3
+              K4
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 13
+Within cluster sum of squared errors: 5.221458925768717
+
+Initial starting points (random):
+
+Cluster 0: 12.026668,10.179263,33.769102,-32.198825
+Cluster 1: 10.193119,8.738196,20.384506,-18.931315
+Cluster 2: 11.089109,9.422356,24.562732,-23.070917
+Cluster 3: 11.957559,10.182727,33.978853,-32.423991
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1          2          3
+               (210.0)     (28.0)     (77.0)     (58.0)     (47.0)
+==================================================================
+K1             11.2575    11.7477     10.497    11.0929    12.4146
+K2              9.3671     9.9683     8.7467     8.8781    10.6286
+K3             27.2253    30.3036    22.0444    26.5316    34.7353
+K4            -25.7167   -28.7817   -20.5689   -25.0066   -33.2005
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       28 ( 13%)
+1       77 ( 37%)
+2       58 ( 28%)
+3       47 ( 22%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  2  3  <-- assigned to cluster
+  7 12 51  0 | Kama
+ 21  0  2 47 | Rosa
+  0 65  5  0 | Canadian
+
+Cluster 0 <-- No class
+Cluster 1 <-- Canadian
+Cluster 2 <-- Kama
+Cluster 3 <-- Rosa
+
+Incorrectly clustered instances :	47.0	 22.381  %
+

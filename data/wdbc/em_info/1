@@ -1,0 +1,186 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 100 -N 2 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 100
+Relation:     wdbc-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Reorder-R2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,1-weka.filters.unsupervised.attribute.Reorder-R1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31-weka.filters.unsupervised.attribute.Remove-R10,12,15
+Instances:    569
+Attributes:   28
+              Mean Radius
+              Mean Texture
+              Mean Perimeter
+              Mean Area
+              Mean Smoothness
+              Mean Compactness
+              Mean Concavity
+              Mean Concave Points
+              Mean Symmetry
+              SE Radius
+              SE Perimeter
+              SE Area
+              SE Compactness
+              SE Concavity
+              SE Concave Points
+              SE Symmetry
+              SE Fractal Dimension
+              Worst Radius
+              Worst Texture
+              Worst Perimeter
+              Worst Area
+              Worst Smoothness
+              Worst Compactness
+              Worst Concavity
+              Worst Concave Points
+              Worst Symmetry
+              Worst Fractal Dimension
+Ignored:
+              Diagnosis
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 2
+Number of iterations performed: 13
+
+
+                            Cluster
+Attribute                         0         1
+                             (0.61)    (0.39)
+==============================================
+Mean Radius
+  mean                       12.2543   17.0392
+  std. dev.                   1.7093    3.6325
+
+Mean Texture
+  mean                       18.1548    21.054
+  std. dev.                    4.064    4.0477
+
+Mean Perimeter
+  mean                       78.6457  112.6828
+  std. dev.                   11.342   24.5095
+
+Mean Area
+  mean                      470.6888  941.2666
+  std. dev.                 129.7173  393.5794
+
+Mean Smoothness
+  mean                         0.092    0.1032
+  std. dev.                   0.0127    0.0134
+
+Mean Compactness
+  mean                        0.0747    0.1504
+  std. dev.                   0.0263    0.0505
+
+Mean Concavity
+  mean                        0.0391    0.1661
+  std. dev.                   0.0259     0.073
+
+Mean Concave Points
+  mean                        0.0245    0.0869
+  std. dev.                   0.0141    0.0341
+
+Mean Symmetry
+  mean                        0.1722    0.1951
+  std. dev.                   0.0228    0.0281
+
+SE Radius
+  mean                         0.278     0.603
+  std. dev.                   0.1019    0.3401
+
+SE Perimeter
+  mean                        1.9333    4.3163
+  std. dev.                   0.6909    2.4954
+
+SE Area
+  mean                       20.9864   70.4217
+  std. dev.                    8.081   60.7349
+
+SE Compactness
+  mean                        0.0178    0.0373
+  std. dev.                   0.0099    0.0208
+
+SE Concavity
+  mean                        0.0202      0.05
+  std. dev.                   0.0142    0.0383
+
+SE Concave Points
+  mean                        0.0089    0.0162
+  std. dev.                    0.004    0.0063
+
+SE Symmetry
+  mean                        0.0199    0.0215
+  std. dev.                   0.0067    0.0101
+
+SE Fractal Dimension
+  mean                        0.0031    0.0049
+  std. dev.                   0.0015    0.0035
+
+Worst Radius
+  mean                       13.5602   20.4809
+  std. dev.                    1.992    4.9251
+
+Worst Texture
+  mean                       24.0031   28.2799
+  std. dev.                   5.6763    5.9257
+
+Worst Perimeter
+  mean                       87.9547  137.2772
+  std. dev.                  13.4412   33.4393
+
+Worst Area
+  mean                      574.8904  1355.846
+  std. dev.                 168.4441  641.4249
+
+Worst Smoothness
+  mean                         0.125    0.1438
+  std. dev.                   0.0193    0.0231
+
+Worst Compactness
+  mean                        0.1721     0.382
+  std. dev.                   0.0775    0.1643
+
+Worst Concavity
+  mean                        0.1509    0.4608
+  std. dev.                   0.1012    0.1914
+
+Worst Concave Points
+  mean                        0.0735    0.1785
+  std. dev.                    0.035    0.0491
+
+Worst Symmetry
+  mean                        0.2705    0.3206
+  std. dev.                   0.0406    0.0753
+
+Worst Fractal Dimension
+  mean                        0.0775    0.0939
+  std. dev.                   0.0107    0.0222
+
+
+
+Time taken to build model (full training data) : 0.07 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      347 ( 61%)
+1      222 ( 39%)
+
+
+Log likelihood: -0.07079
+
+
+Class attribute: Diagnosis
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+  19 193 | M
+ 328  29 | B
+
+Cluster 0 <-- B
+Cluster 1 <-- M
+
+Incorrectly clustered instances :	48.0	  8.4359 %
+

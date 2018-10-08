@@ -1,0 +1,76 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 4 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     seeds-weka.filters.supervised.attribute.NominalToBinary-weka.filters.unsupervised.attribute.RandomProjection-N6-R42-DSparse1
+Instances:    210
+Attributes:   7
+              K1
+              K2
+              K3
+              K4
+              K5
+              K6
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 18
+Within cluster sum of squared errors: 11.510489436747644
+
+Initial starting points (random):
+
+Cluster 0: 12.026668,10.179263,33.769102,-32.198825,0,19.003022
+Cluster 1: 10.193119,8.738196,20.384506,-18.931315,0,16.634616
+Cluster 2: 11.089109,9.422356,24.562732,-23.070917,0,20.115518
+Cluster 3: 11.957559,10.182727,33.978853,-32.423991,0,17.849303
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1          2          3
+               (210.0)     (47.0)     (74.0)     (58.0)     (31.0)
+==================================================================
+K1             11.2575    12.4146    10.5342    11.0097    11.6935
+K2              9.3671    10.6286     8.8266     8.7515     9.8964
+K3             27.2253    34.7353    22.1506    26.1223    30.0166
+K4            -25.7167   -33.2005   -20.6765   -24.5978    -28.495
+K5                   0          0          0          0          0
+K6             14.2674    15.2057    15.7341     11.292    14.9103
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       47 ( 22%)
+1       74 ( 35%)
+2       58 ( 28%)
+3       31 ( 15%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  2  3  <-- assigned to cluster
+  0  8 53  9 | Kama
+ 47  0  1 22 | Rosa
+  0 66  4  0 | Canadian
+
+Cluster 0 <-- Rosa
+Cluster 1 <-- Canadian
+Cluster 2 <-- Kama
+Cluster 3 <-- No class
+
+Incorrectly clustered instances :	44.0	 20.9524 %
+

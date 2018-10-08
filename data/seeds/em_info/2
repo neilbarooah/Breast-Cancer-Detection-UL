@@ -1,0 +1,79 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 500 -N 3 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 100
+Relation:     seeds-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    210
+Attributes:   6
+              Area
+              Perimeter
+              Length
+              Width
+              Length of Kernel Groove
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 3
+Number of iterations performed: 9
+
+
+                          Cluster
+Attribute                       0       1       2
+                           (0.29)  (0.31)  (0.39)
+==================================================
+Area
+  mean                     18.6896 14.8516 11.9662
+  std. dev.                  1.112   0.865  0.7353
+
+Perimeter
+  mean                     16.2848 14.5527  13.272
+  std. dev.                 0.4789  0.4195   0.341
+
+Length
+  mean                       6.207  5.5936  5.2229
+  std. dev.                 0.2172  0.1809  0.1384
+
+Width
+  mean                      3.7186  3.3063  2.8762
+  std. dev.                 0.1525   0.135  0.1501
+
+Length of Kernel Groove
+  mean                      6.0641   5.228  5.0594
+  std. dev.                 0.2206  0.2904  0.1954
+
+
+
+Time taken to build model (full training data) : 0.03 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       62 ( 30%)
+1       66 ( 31%)
+2       82 ( 39%)
+
+
+Log likelihood: -1.94756
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  2  <-- assigned to cluster
+  2 54 14 | Kama
+ 60 10  0 | Rosa
+  0  2 68 | Canadian
+
+Cluster 0 <-- Rosa
+Cluster 1 <-- Kama
+Cluster 2 <-- Canadian
+
+Incorrectly clustered instances :	28.0	 13.3333 %
+

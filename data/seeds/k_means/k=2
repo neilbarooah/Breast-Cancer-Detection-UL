@@ -1,0 +1,72 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     seeds
+Instances:    210
+Attributes:   8
+              Area
+              Perimeter
+              Compactness
+              Length
+              Width
+              Asymmetry Coefficient
+              Length of Kernel Groove
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 8
+Within cluster sum of squared errors: 34.81326792694563
+
+Initial starting points (random):
+
+Cluster 0: 18.59,16.05,0.9066,6.037,3.86,6.001,5.877
+Cluster 1: 10.93,12.8,0.839,5.046,2.717,5.398,5.045
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                       Cluster#
+Attribute                  Full Data          0          1
+                             (210.0)     (77.0)    (133.0)
+==========================================================
+Area                         14.8475    18.1586    12.9306
+Perimeter                    14.5593    16.0548    13.6935
+Compactness                    0.871     0.8838     0.8636
+Length                        5.6285     6.1274     5.3397
+Width                         3.2586     3.6605     3.0259
+Asymmetry Coefficient         3.7002     3.4804     3.8274
+Length of Kernel Groove       5.4081     5.9717     5.0817
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       77 ( 37%)
+1      133 ( 63%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  <-- assigned to cluster
+  9 61 | Kama
+ 68  2 | Rosa
+  0 70 | Canadian
+
+Cluster 0 <-- Rosa
+Cluster 1 <-- Canadian
+
+Incorrectly clustered instances :	72.0	 34.2857 %
+

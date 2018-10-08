@@ -1,0 +1,77 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.FilteredClusterer -F "weka.filters.unsupervised.attribute.PrincipalComponents -R 0.95 -A -1 -M 1" -W weka.clusterers.SimpleKMeans -- -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 1000 -num-slots 1 -S 10
+Relation:     seeds
+Instances:    210
+Attributes:   8
+              Area
+              Perimeter
+              Compactness
+              Length
+              Width
+              Asymmetry Coefficient
+              Length of Kernel Groove
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+FilteredClusterer using weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 1000 -num-slots 1 -S 10 on data filtered through weka.filters.unsupervised.attribute.PrincipalComponents -R 0.95 -A -1 -M 1
+
+Filtered Header
+@relation 'seeds-weka.filters.unsupervised.attribute.Remove-R8_principal components-weka.filters.unsupervised.attribute.PrincipalComponents-R0.95-A-1-M1'
+
+@attribute '0.444Area+0.442Perimeter+0.433Width+0.424Length+0.387Length of Kernel Groove+0.277Compactness-0.119Asymmetry Coefficient' numeric
+
+@data
+
+
+Clusterer Model
+
+kMeans
+======
+
+Number of iterations: 5
+Within cluster sum of squared errors: 4.166710264131804
+
+Initial starting points (random):
+
+Cluster 0: 2.760485
+Cluster 1: -3.165955
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                                                                                                        Cluster#
+Attribute                                                                                                                   Full Data          0          1
+                                                                                                                              (210.0)     (86.0)    (124.0)
+===========================================================================================================================================================
+0.444Area+0.442Perimeter+0.433Width+0.424Length+0.387Length of Kernel Groove+0.277Compactness-0.119Asymmetry Coefficient           -0     2.3449    -1.6263
+
+
+
+
+Time taken to build model (full training data) : 0.01 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       86 ( 41%)
+1      124 ( 59%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  <-- assigned to cluster
+ 16 54 | Kama
+ 70  0 | Rosa
+  0 70 | Canadian
+
+Cluster 0 <-- Rosa
+Cluster 1 <-- Canadian
+
+Incorrectly clustered instances :	70.0	 33.3333 %
+

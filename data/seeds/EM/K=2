@@ -1,0 +1,87 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 100 -N 2 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 100
+Relation:     seeds
+Instances:    210
+Attributes:   8
+              Area
+              Perimeter
+              Compactness
+              Length
+              Width
+              Asymmetry Coefficient
+              Length of Kernel Groove
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 2
+Number of iterations performed: 6
+
+
+                          Cluster
+Attribute                       0       1
+                           (0.36)  (0.64)
+==========================================
+Area
+  mean                     18.2151 12.9758
+  std. dev.                 1.4513  1.4602
+
+Perimeter
+  mean                     16.0838 13.7119
+  std. dev.                 0.6201  0.6461
+
+Compactness
+  mean                      0.8834  0.8641
+  std. dev.                  0.015  0.0246
+
+Length
+  mean                      6.1399  5.3443
+  std. dev.                 0.2468  0.2097
+
+Width
+  mean                      3.6641  3.0332
+  std. dev.                 0.1863  0.2438
+
+Asymmetry Coefficient
+  mean                      3.5436  3.7872
+  std. dev.                 1.2254  1.6263
+
+Length of Kernel Groove
+  mean                      5.9933  5.0828
+  std. dev.                 0.2643  0.1976
+
+
+
+Time taken to build model (full training data) : 0.1 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       75 ( 36%)
+1      135 ( 64%)
+
+
+Log likelihood: -2.47728
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  <-- assigned to cluster
+  7 63 | Kama
+ 68  2 | Rosa
+  0 70 | Canadian
+
+Cluster 0 <-- Rosa
+Cluster 1 <-- Canadian
+
+Incorrectly clustered instances :	72.0	 34.2857 %
+

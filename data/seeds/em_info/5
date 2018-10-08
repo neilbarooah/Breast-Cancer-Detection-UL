@@ -1,0 +1,64 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 500 -N 3 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 100
+Relation:     seeds-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    210
+Attributes:   3
+              Area
+              Perimeter
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 3
+Number of iterations performed: 15
+
+
+            Cluster
+Attribute         0       1       2
+             (0.28)  (0.32)  (0.39)
+====================================
+Area
+  mean       18.7591  14.906 11.9707
+  std. dev.    1.066  0.9189  0.7428
+
+Perimeter
+  mean       16.3143 14.5791 13.2738
+  std. dev.   0.4595  0.4445  0.3437
+
+
+
+Time taken to build model (full training data) : 0.01 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       60 ( 29%)
+1       68 ( 32%)
+2       82 ( 39%)
+
+
+Log likelihood: -2.83626
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  2  <-- assigned to cluster
+  1 55 14 | Kama
+ 59 11  0 | Rosa
+  0  2 68 | Canadian
+
+Cluster 0 <-- Rosa
+Cluster 1 <-- Kama
+Cluster 2 <-- Canadian
+
+Incorrectly clustered instances :	28.0	 13.3333 %
+

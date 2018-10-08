@@ -1,0 +1,66 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 500 -N 4 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 100
+Relation:     seeds-weka.filters.supervised.attribute.NominalToBinary-weka.filters.unsupervised.attribute.RandomProjection-N2-R42-DSparse1
+Instances:    210
+Attributes:   3
+              K1
+              K2
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 4
+Number of iterations performed: 92
+
+
+            Cluster
+Attribute         0       1       2       3
+             (0.15)  (0.45)  (0.23)  (0.17)
+============================================
+K1
+  mean        12.564  10.573 11.2466  11.951
+  std. dev.   0.2642  0.2595  0.2643  0.2206
+
+K2
+  mean       10.8056  8.6903  9.1558 10.2022
+  std. dev.   0.2532  0.3165  0.3008  0.1531
+
+
+
+Time taken to build model (full training data) : 0.04 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       32 ( 15%)
+1       97 ( 46%)
+2       47 ( 22%)
+3       34 ( 16%)
+
+
+Log likelihood: -1.26439
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  2  3  <-- assigned to cluster
+  0 32 37  1 | Kama
+ 32  1  4 33 | Rosa
+  0 64  6  0 | Canadian
+
+Cluster 0 <-- No class
+Cluster 1 <-- Canadian
+Cluster 2 <-- Kama
+Cluster 3 <-- Rosa
+
+Incorrectly clustered instances :	76.0	 36.1905 %
+

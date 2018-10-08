@@ -1,0 +1,86 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.EM -I 500 -N 4 -X 10 -max -1 -ll-cv 1.0E-6 -ll-iter 1.0E-6 -M 1.0E-6 -K 10 -num-slots 1 -S 100
+Relation:     seeds_seeds-weka.filters.unsupervised.attribute.Remove-R8_ICA-weka.filters.unsupervised.attribute.IndependentComponents-W-A6-N500-T1.0E-4-weka.filters.unsupervised.attribute.Remove-R1-7
+Instances:    210
+Attributes:   7
+              Source_0
+              Source_1
+              Source_2
+              Source_3
+              Source_4
+              Source_5
+Ignored:
+              Class
+Test mode:    Classes to clusters evaluation on training data
+
+=== Clustering model (full training set) ===
+
+
+EM
+==
+
+Number of clusters: 4
+Number of iterations performed: 109
+
+
+            Cluster
+Attribute         0       1       2       3
+             (0.31)   (0.1)  (0.21)  (0.37)
+============================================
+Source_0
+  mean       -0.0651 -0.0473  0.0695  0.0277
+  std. dev.   0.0375  0.0394   0.059  0.0388
+
+Source_1
+  mean        0.0164 -0.0659  0.0224 -0.0087
+  std. dev.   0.0798  0.0515  0.0458  0.0611
+
+Source_2
+  mean        0.0142  0.0186  0.0329 -0.0354
+  std. dev.   0.0661   0.062  0.0832  0.0445
+
+Source_3
+  mean        0.0004 -0.0416 -0.0556  0.0424
+  std. dev.   0.0576  0.0171  0.0425  0.0695
+
+Source_4
+  mean       -0.0145  0.0986 -0.0395   0.008
+  std. dev.   0.0578  0.0384  0.0631  0.0594
+
+Source_5
+  mean       -0.0098  0.0376  0.0346 -0.0215
+  std. dev.    0.065  0.0597  0.0865  0.0489
+
+
+
+Time taken to build model (full training data) : 0.07 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       62 ( 30%)
+1       21 ( 10%)
+2       47 ( 22%)
+3       80 ( 38%)
+
+
+Log likelihood: 7.90595
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  2  3  <-- assigned to cluster
+  8  1  0 61 | Kama
+ 19  0 47  4 | Rosa
+ 35 20  0 15 | Canadian
+
+Cluster 0 <-- Canadian
+Cluster 1 <-- No class
+Cluster 2 <-- Rosa
+Cluster 3 <-- Kama
+
+Incorrectly clustered instances :	67.0	 31.9048 %
+
